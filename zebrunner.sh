@@ -234,7 +234,7 @@
     sonarqube/zebrunner.sh shutdown
     mcloud/zebrunner.sh shutdown
     selenoid/zebrunner.sh shutdown
-    docker-compose down -v
+    docker compose down -v
 
     rm -f NOTICE.txt
     rm -f .env
@@ -281,7 +281,7 @@
     reporting/zebrunner.sh start
     sonarqube/zebrunner.sh start
 
-    docker-compose up -d
+    docker compose up -d
   }
 
   stop() {
@@ -296,7 +296,7 @@
     sonarqube/zebrunner.sh stop
     mcloud/zebrunner.sh stop
     selenoid/zebrunner.sh stop
-    docker-compose stop
+    docker compose stop
   }
 
   restart() {
@@ -322,7 +322,7 @@
     sonarqube/zebrunner.sh down
     mcloud/zebrunner.sh down
     selenoid/zebrunner.sh down
-    docker-compose down
+    docker compose down
   }
 
   backup() {

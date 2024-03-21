@@ -4,8 +4,8 @@
 	branch = master
 [submodule "reporting"]
 	path = reporting
-	url = https://github.com/zebrunner/reporting.git
-	branch = #2186
+	url = https://github.com/Robbe-vH/zebrunner-reporting.git
+	branch = master
 [submodule "jenkins"]
 	path = jenkins
 	url = https://github.com/zebrunner/jenkins-master.git
